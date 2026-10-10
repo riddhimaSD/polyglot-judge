@@ -1,0 +1,12 @@
+[project]
+name = "polyglot-judge"
+version = "0.1.0"
+description = "Local judge for Python/JS/Java/C++ and a study of which tests catch which bugs"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+
+[tool.setuptools.packages.find]
+include = ["judge*"]
