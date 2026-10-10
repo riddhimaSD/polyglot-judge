@@ -1,0 +1,578 @@
+[
+ {
+  "problem": "max_subarray",
+  "lang": "python",
+  "variant": "correct",
+  "description": "Kadane",
+  "suites": {
+   "examples": "AC",
+   "edge": "AC",
+   "random": "AC",
+   "stress": "AC"
+  }
+ },
+ {
+  "problem": "max_subarray",
+  "lang": "python",
+  "variant": "zero_init",
+  "description": "Kadane initialised at 0: returns 0 when every element is negative",
+  "suites": {
+   "examples": "AC",
+   "edge": "WA",
+   "random": "WA",
+   "stress": "AC"
+  }
+ },
+ {
+  "problem": "max_subarray",
+  "lang": "python",
+  "variant": "quadratic",
+  "description": "Correct but O(n^2): every subarray",
+  "suites": {
+   "examples": "AC",
+   "edge": "AC",
+   "random": "AC",
+   "stress": "TLE"
+  }
+ },
+ {
+  "problem": "max_subarray",
+  "lang": "javascript",
+  "variant": "correct",
+  "description": "Kadane",
+  "suites": {
+   "examples": "AC",
+   "edge": "AC",
+   "random": "AC",
+   "stress": "AC"
+  }
+ },
+ {
+  "problem": "max_subarray",
+  "lang": "javascript",
+  "variant": "zero_init",
+  "description": "Kadane initialised at 0: returns 0 when every element is negative",
+  "suites": {
+   "examples": "AC",
+   "edge": "WA",
+   "random": "WA",
+   "stress": "AC"
+  }
+ },
+ {
+  "problem": "max_subarray",
+  "lang": "javascript",
+  "variant": "quadratic",
+  "description": "Correct but O(n^2): every subarray",
+  "suites": {
+   "examples": "AC",
+   "edge": "AC",
+   "random": "AC",
+   "stress": "TLE"
+  }
+ },
+ {
+  "problem": "max_subarray",
+  "lang": "java",
+  "variant": "correct",
+  "description": "Kadane with long accumulators",
+  "suites": {
+   "examples": "AC",
+   "edge": "AC",
+   "random": "AC",
+   "stress": "AC"
+  }
+ },
+ {
+  "problem": "max_subarray",
+  "lang": "java",
+  "variant": "zero_init",
+  "description": "Kadane initialised at 0: returns 0 when every element is negative",
+  "suites": {
+   "examples": "AC",
+   "edge": "WA",
+   "random": "WA",
+   "stress": "AC"
+  }
+ },
+ {
+  "problem": "max_subarray",
+  "lang": "java",
+  "variant": "int_overflow",
+  "description": "Kadane with int accumulators: overflows once sums exceed 2^31",
+  "suites": {
+   "examples": "AC",
+   "edge": "AC",
+   "random": "AC",
+   "stress": "WA"
+  }
+ },
+ {
+  "problem": "max_subarray",
+  "lang": "cpp",
+  "variant": "correct",
+  "description": "Kadane with long long accumulators",
+  "suites": {
+   "examples": "AC",
+   "edge": "AC",
+   "random": "AC",
+   "stress": "AC"
+  }
+ },
+ {
+  "problem": "max_subarray",
+  "lang": "cpp",
+  "variant": "zero_init",
+  "description": "Kadane initialised at 0: returns 0 when every element is negative",
+  "suites": {
+   "examples": "AC",
+   "edge": "WA",
+   "random": "WA",
+   "stress": "AC"
+  }
+ },
+ {
+  "problem": "max_subarray",
+  "lang": "cpp",
+  "variant": "int_overflow",
+  "description": "Kadane with int accumulators: overflows once sums exceed 2^31",
+  "suites": {
+   "examples": "AC",
+   "edge": "AC",
+   "random": "AC",
+   "stress": "WA"
+  }
+ },
+ {
+  "problem": "lower_bound",
+  "lang": "python",
+  "variant": "correct",
+  "description": "Binary search for first index with a[i] >= t",
+  "suites": {
+   "examples": "AC",
+   "edge": "AC",
+   "random": "AC",
+   "stress": "AC"
+  }
+ },
+ {
+  "problem": "lower_bound",
+  "lang": "python",
+  "variant": "last_occurrence",
+  "description": "Returns the LAST index of t when t repeats (upper bound - 1)",
+  "suites": {
+   "examples": "AC",
+   "edge": "WA",
+   "random": "WA",
+   "stress": "AC"
+  }
+ },
+ {
+  "problem": "lower_bound",
+  "lang": "python",
+  "variant": "hi_off_by_one",
+  "description": "hi starts at n-1: answer n (t larger than every element) is unreachable",
+  "suites": {
+   "examples": "AC",
+   "edge": "WA",
+   "random": "WA",
+   "stress": "WA"
+  }
+ },
+ {
+  "problem": "lower_bound",
+  "lang": "javascript",
+  "variant": "correct",
+  "description": "Binary search for first index with a[i] >= t",
+  "suites": {
+   "examples": "AC",
+   "edge": "AC",
+   "random": "AC",
+   "stress": "AC"
+  }
+ },
+ {
+  "problem": "lower_bound",
+  "lang": "javascript",
+  "variant": "last_occurrence",
+  "description": "Returns the LAST index of t when t repeats (upper bound - 1)",
+  "suites": {
+   "examples": "AC",
+   "edge": "WA",
+   "random": "WA",
+   "stress": "AC"
+  }
+ },
+ {
+  "problem": "lower_bound",
+  "lang": "javascript",
+  "variant": "hi_off_by_one",
+  "description": "hi starts at n-1: answer n (t larger than every element) is unreachable",
+  "suites": {
+   "examples": "AC",
+   "edge": "WA",
+   "random": "WA",
+   "stress": "WA"
+  }
+ },
+ {
+  "problem": "lower_bound",
+  "lang": "java",
+  "variant": "correct",
+  "description": "Binary search for first index with a[i] >= t",
+  "suites": {
+   "examples": "AC",
+   "edge": "AC",
+   "random": "AC",
+   "stress": "AC"
+  }
+ },
+ {
+  "problem": "lower_bound",
+  "lang": "java",
+  "variant": "last_occurrence",
+  "description": "Returns the LAST index of t when t repeats (upper bound - 1)",
+  "suites": {
+   "examples": "AC",
+   "edge": "WA",
+   "random": "WA",
+   "stress": "AC"
+  }
+ },
+ {
+  "problem": "lower_bound",
+  "lang": "java",
+  "variant": "hi_off_by_one",
+  "description": "hi starts at n-1: answer n (t larger than every element) is unreachable",
+  "suites": {
+   "examples": "AC",
+   "edge": "WA",
+   "random": "WA",
+   "stress": "WA"
+  }
+ },
+ {
+  "problem": "lower_bound",
+  "lang": "cpp",
+  "variant": "correct",
+  "description": "Binary search for first index with a[i] >= t",
+  "suites": {
+   "examples": "AC",
+   "edge": "AC",
+   "random": "AC",
+   "stress": "AC"
+  }
+ },
+ {
+  "problem": "lower_bound",
+  "lang": "cpp",
+  "variant": "last_occurrence",
+  "description": "Returns the LAST index of t when t repeats (upper bound - 1)",
+  "suites": {
+   "examples": "AC",
+   "edge": "WA",
+   "random": "WA",
+   "stress": "AC"
+  }
+ },
+ {
+  "problem": "lower_bound",
+  "lang": "cpp",
+  "variant": "hi_off_by_one",
+  "description": "hi starts at n-1: answer n (t larger than every element) is unreachable",
+  "suites": {
+   "examples": "AC",
+   "edge": "WA",
+   "random": "WA",
+   "stress": "WA"
+  }
+ },
+ {
+  "problem": "inversions",
+  "lang": "python",
+  "variant": "correct",
+  "description": "Merge sort counting inversions, O(n log n)",
+  "suites": {
+   "examples": "AC",
+   "edge": "AC",
+   "random": "AC",
+   "stress": "AC"
+  }
+ },
+ {
+  "problem": "inversions",
+  "lang": "python",
+  "variant": "quadratic",
+  "description": "Correct but O(n^2): checks every pair",
+  "suites": {
+   "examples": "AC",
+   "edge": "AC",
+   "random": "AC",
+   "stress": "TLE"
+  }
+ },
+ {
+  "problem": "inversions",
+  "lang": "python",
+  "variant": "counts_equal",
+  "description": "Merge uses < instead of <=, so equal elements are counted as inversions",
+  "suites": {
+   "examples": "AC",
+   "edge": "WA",
+   "random": "WA",
+   "stress": "AC"
+  }
+ },
+ {
+  "problem": "inversions",
+  "lang": "javascript",
+  "variant": "correct",
+  "description": "Merge sort counting inversions, O(n log n)",
+  "suites": {
+   "examples": "AC",
+   "edge": "AC",
+   "random": "AC",
+   "stress": "AC"
+  }
+ },
+ {
+  "problem": "inversions",
+  "lang": "javascript",
+  "variant": "quadratic",
+  "description": "Correct but O(n^2): checks every pair",
+  "suites": {
+   "examples": "AC",
+   "edge": "AC",
+   "random": "AC",
+   "stress": "TLE"
+  }
+ },
+ {
+  "problem": "inversions",
+  "lang": "javascript",
+  "variant": "counts_equal",
+  "description": "Merge uses < instead of <=, so equal elements are counted as inversions",
+  "suites": {
+   "examples": "AC",
+   "edge": "WA",
+   "random": "WA",
+   "stress": "AC"
+  }
+ },
+ {
+  "problem": "inversions",
+  "lang": "java",
+  "variant": "correct",
+  "description": "Merge sort counting inversions in a long, O(n log n)",
+  "suites": {
+   "examples": "AC",
+   "edge": "AC",
+   "random": "AC",
+   "stress": "AC"
+  }
+ },
+ {
+  "problem": "inversions",
+  "lang": "java",
+  "variant": "quadratic",
+  "description": "Correct but O(n^2): checks every pair",
+  "suites": {
+   "examples": "AC",
+   "edge": "AC",
+   "random": "AC",
+   "stress": "TLE"
+  }
+ },
+ {
+  "problem": "inversions",
+  "lang": "java",
+  "variant": "int_overflow",
+  "description": "Merge sort with an int counter: overflows past 2^31 inversions",
+  "suites": {
+   "examples": "AC",
+   "edge": "AC",
+   "random": "AC",
+   "stress": "WA"
+  }
+ },
+ {
+  "problem": "inversions",
+  "lang": "cpp",
+  "variant": "correct",
+  "description": "Merge sort counting inversions in a long long, O(n log n)",
+  "suites": {
+   "examples": "AC",
+   "edge": "AC",
+   "random": "AC",
+   "stress": "AC"
+  }
+ },
+ {
+  "problem": "inversions",
+  "lang": "cpp",
+  "variant": "quadratic",
+  "description": "Correct but O(n^2): checks every pair",
+  "suites": {
+   "examples": "AC",
+   "edge": "AC",
+   "random": "AC",
+   "stress": "TLE"
+  }
+ },
+ {
+  "problem": "inversions",
+  "lang": "cpp",
+  "variant": "int_overflow",
+  "description": "Merge sort with an int counter: overflows past 2^31 inversions",
+  "suites": {
+   "examples": "AC",
+   "edge": "AC",
+   "random": "AC",
+   "stress": "WA"
+  }
+ },
+ {
+  "problem": "unique_substring",
+  "lang": "python",
+  "variant": "correct",
+  "description": "Sliding window; left only moves forward",
+  "suites": {
+   "examples": "AC",
+   "edge": "AC",
+   "random": "AC",
+   "stress": "AC"
+  }
+ },
+ {
+  "problem": "unique_substring",
+  "lang": "python",
+  "variant": "left_moves_back",
+  "description": "Missing max(): left can jump BACKWARDS to an old occurrence ('abba')",
+  "suites": {
+   "examples": "AC",
+   "edge": "WA",
+   "random": "WA",
+   "stress": "WA"
+  }
+ },
+ {
+  "problem": "unique_substring",
+  "lang": "python",
+  "variant": "reset_window",
+  "description": "On a repeat, restarts the window at i instead of after the old occurrence ('dvdf')",
+  "suites": {
+   "examples": "AC",
+   "edge": "WA",
+   "random": "WA",
+   "stress": "AC"
+  }
+ },
+ {
+  "problem": "unique_substring",
+  "lang": "javascript",
+  "variant": "correct",
+  "description": "Sliding window; left only moves forward",
+  "suites": {
+   "examples": "AC",
+   "edge": "AC",
+   "random": "AC",
+   "stress": "AC"
+  }
+ },
+ {
+  "problem": "unique_substring",
+  "lang": "javascript",
+  "variant": "left_moves_back",
+  "description": "Missing max(): left can jump BACKWARDS to an old occurrence ('abba')",
+  "suites": {
+   "examples": "AC",
+   "edge": "WA",
+   "random": "WA",
+   "stress": "WA"
+  }
+ },
+ {
+  "problem": "unique_substring",
+  "lang": "javascript",
+  "variant": "reset_window",
+  "description": "On a repeat, restarts the window at i instead of after the old occurrence ('dvdf')",
+  "suites": {
+   "examples": "AC",
+   "edge": "WA",
+   "random": "WA",
+   "stress": "AC"
+  }
+ },
+ {
+  "problem": "unique_substring",
+  "lang": "java",
+  "variant": "correct",
+  "description": "Sliding window; left only moves forward",
+  "suites": {
+   "examples": "AC",
+   "edge": "AC",
+   "random": "AC",
+   "stress": "AC"
+  }
+ },
+ {
+  "problem": "unique_substring",
+  "lang": "java",
+  "variant": "left_moves_back",
+  "description": "Missing max(): left can jump BACKWARDS to an old occurrence ('abba')",
+  "suites": {
+   "examples": "AC",
+   "edge": "WA",
+   "random": "WA",
+   "stress": "WA"
+  }
+ },
+ {
+  "problem": "unique_substring",
+  "lang": "java",
+  "variant": "reset_window",
+  "description": "On a repeat, restarts the window at i instead of after the old occurrence ('dvdf')",
+  "suites": {
+   "examples": "AC",
+   "edge": "WA",
+   "random": "WA",
+   "stress": "AC"
+  }
+ },
+ {
+  "problem": "unique_substring",
+  "lang": "cpp",
+  "variant": "correct",
+  "description": "Sliding window; left only moves forward",
+  "suites": {
+   "examples": "AC",
+   "edge": "AC",
+   "random": "AC",
+   "stress": "AC"
+  }
+ },
+ {
+  "problem": "unique_substring",
+  "lang": "cpp",
+  "variant": "left_moves_back",
+  "description": "Missing max(): left can jump BACKWARDS to an old occurrence ('abba')",
+  "suites": {
+   "examples": "AC",
+   "edge": "WA",
+   "random": "WA",
+   "stress": "WA"
+  }
+ },
+ {
+  "problem": "unique_substring",
+  "lang": "cpp",
+  "variant": "reset_window",
+  "description": "On a repeat, restarts the window at i instead of after the old occurrence ('dvdf')",
+  "suites": {
+   "examples": "AC",
+   "edge": "WA",
+   "random": "WA",
+   "stress": "AC"
+  }
+ }
+]
